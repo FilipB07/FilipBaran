@@ -46,7 +46,7 @@ a{color: black; text-decoration: none;}
 .opis{background-color: #0d8d1e ;border: 2px solid black;box-sizing: border-box;width: 100%;}
 table, td, th{border: 2px solid black;}
 .tabela{display: flex;align-items: center;}
-.zdjecie1{margin-left: 20px;}
+.zdjecie1{margin-left: 20px; width:40%;}
 .ciekawostki{background-color: #2939b4 ;border: 2px solid black;box-sizing: border-box;width: 100%;}
 .wiecej{background-image: linear-gradient(to right, #2d8a2d, #4bf04b);border: 2px solid black;box-sizing: border-box;width: 100%;display: table}
 .znaczek{width: 40%;}
