@@ -1,0 +1,72 @@
+<!Doctype html>
+<html lang=pl>
+<head>
+    <title>Ankieta</title>
+    <meta charset=UTF-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel=stylesheet type=text/css href=style.css>
+</head>
+<body>
+
+<form action="mailto:filip.baran@tm1.edu.pl" method=post>      
+
+<h1 class="lewa">Krótka ankieta dla fanów motoryzacji</h1>
+<hr>
+<br>
+<h2 class="lewa">Informacje o Tobie:</h2>
+	<label for=imie class="lewa">Imię:</label>
+	<input type=text name=imie id=imie maxlength=10 size=5 class="lewa"> 
+<br>
+	<label for=wiek class="lewa">Ile masz lat?:</label>
+	<input type=number name=wiek id=wiek min=15 max=100 class="lewa">
+<br>	
+	<label for=wiek class="lewa">Jakiego auta/Jakich aut jesteś właścicielem:</label>
+	<input type=text name=auto id=auto  maxlength=100 size=5 class="lewa">
+<br>	
+<hr>
+<br>
+<h2 class="lewa">Płeć:</h2>	
+	<input type=radio name=plec id=kobieta value=kobieta class="lewa">
+	<label for=kobieta class="lewa">Kobieta</label>
+<br>
+	
+	<input type=radio name=plec id=mezczyzna value=mezczyzna class="lewa">
+	<label for=mezczyzna class="lewa">mezczyzna</label>
+<hr>
+<br>
+<h2 class="lewa">Które z przedstawionych na tej stronie aut, spodobało Ci się najbardziej?</h2>
+<input type=radio name=auto id=auta value=auta class="lewa">
+	<label for=jesko class="lewa">Jesko Koenigsegg</label>
+<br>
+<input type=radio name=auto id=auta value=auta class="lewa">
+	<label for=merc class="lewa">Mercedes Amg One</label>
+<br>
+<input type=radio name=auto id=auta value=auta class="lewa">
+	<label for=bugati class="lewa">Bugatti Divo</label>
+<br>
+<input type=radio name=auto id=auta value=auta class="lewa">
+	<label for=volvo class="lewa">Volvo Iron Knight</label>
+<br>
+<input type=radio name=auto id=auta value=auta class="lewa">
+	<label for=ford class="lewa">Ford F-150 Raptor</label>
+<br>
+<input type=radio name=auto id=auta value=auta class="lewa">
+	<label for=ferari class="lewa">Ferrari 812 Superfast</label>
+<br>
+<input type=radio name=auto id=auta value=auta class="lewa">
+	<label for=lambo class="lewa">Lamborghini Revuelto</label>
+<br>
+<br>
+<hr>
+<label for=uwagi class="lewa">UWAGI</label><p>
+<textarea id=uwagi name=uwagi maxlength="50" cols=20 rows=5 class="lewa">Tu zostaw swoje uwagi</textarea>
+<hr>
+<button type=button onClick="alert('BRUM BRUM')" class="lewa">KLIKNIJ MNIE</button>
+<input type=reset value="reset" class="lewa">	
+<input type=submit class="lewa">
+	
+</form>
+
+</body>
+</html>
+
